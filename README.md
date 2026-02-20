@@ -51,44 +51,49 @@ opencv-learning-path/
 │   └── haarcascade_frontalface_default.xml
 │
 └── requirements.txt
-📘 Topics Covered
-🔹 Basics
-Reading images and videos
+```
 
-Drawing shapes and text
 
-Image transformations
+## 📘 Topics Covered
 
-Contours
+### 🔹 **Basics**
+- **Reading images and videos**
+- **Drawing shapes and text**
+- **Image transformations**
+- **Contours**
+- **Basic image manipulations**
 
-Basic image manipulations
+### 🔹 **Advanced**
+- **Rescaling and resizing**
+- **Smoothing and blurring**
+- **Color spaces** (**RGB**, **Grayscale**, **HSV**, etc.)
+- **Splitting and merging channels**
 
-🔹 Advanced
-Rescaling and resizing
+### 🔜 **Coming Soon**
+- **Face detection** using Haar Cascades
+- **Object detection fundamentals**
+- **Real-time video processing**
+- **Performance optimization**
 
-Smoothing and blurring
+---
 
-Color spaces (RGB, Grayscale, etc.)
+## ▶️ Getting Started
 
-Splitting and merging channels
+### 1️⃣ **Clone the repository**
 
-🔜 Coming Soon
-Face detection using Haar Cascades
-
-Object detection fundamentals
-
-Real-time video processing
-
-Performance optimization
-
-▶️ Getting Started
-1. Clone the repository
-bash
+```bash
 git clone https://github.com/your-username/opencv-learning-path.git
 cd opencv-learning-path
-2. Install dependencies
-bash
+```
+
+### 2️⃣ **Install dependencies**
+
+```bash
 pip install -r requirements.txt
-3. Run an example
-bash
+```
+
+### 3️⃣ **Run an example**
+
+```bash
 python 01_basics/read_images.py
+```
